@@ -21,13 +21,13 @@ Real-world CGM and treatment datasets are typically messy:
 
 ---
 
-## Data Sources (Not Included)
-The pipeline is designed to work with:
-- **CGM readings** (CSV) — example file: `original_sgv.csv` (semicolon-separated)
-- **Treatments/events** (Excel) — example file: `original_treatments_mongoDB.xlsx`
+## Data
 
-> Note: raw data is not included in this repository (size + privacy considerations).  
-> See the **How to Run** section for expected file placement.
+The datasets included in this repository are **fully anonymized and protected**.
+All personal identifiers have been removed, and the data cannot be traced back to any individual.
+
+The data is provided exclusively for educational, analytical, and portfolio demonstration purposes.
+The data does not contain personal identifiers, names, or sensitive metadata beyond anonymized time-series measurements.
 
 ---
 
@@ -103,11 +103,10 @@ These assumptions should be adjusted depending on the clinical context and datas
 ---
 
 ## How to Run
-1. Create a local folder structure:
-2. 2. Update the file paths inside the notebook to:
-- `data/original_sgv.csv`
-- `data/original_treatments_mongoDB.xlsx`
-3. Run the notebook top-to-bottom.
+1. Clone the repository.
+2. Ensure the data files are present in the `data/` folder.
+3. Open `cgm_time_series_feature_engineering.ipynb`.
+4. Run the notebook top-to-bottom.
 
 ---
 
